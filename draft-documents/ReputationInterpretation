@@ -1,17 +1,11 @@
+<!----- Conversion time: 2.112 seconds.
 
 
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
 
 Conversion notes:
 
 * Docs to Markdown version 1.0β17
-* Fri Sep 06 2019 06:21:26 GMT-0700 (PDT)
+* Wed Oct 16 2019 01:18:32 GMT-0700 (PDT)
 * Source doc: https://docs.google.com/a/ganglysister.com/open?id=12eIlaDcJITVdgK3ZvuAfN5uy_2AZn1amQAvRf7XRC90
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
 ----->
@@ -26,13 +20,13 @@ Conversion notes:
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
-<h3>**Reputation Interpretation**</h3>
+
+## **Reputation Interpretation**
+
+Authors: Arthur Brock, Kaliya Hamlin, Grace (Rebecca) Rachmany, Jakub Lanc
 
 
-Authors: Arthur Brock, Kaliya Hamlin, Grace (Rebecca) Rachmany, Eric Welton
-
-<h3>**Abstract**</h3>
-
+## **Abstract**
 
 This paper explores how to take a “reputation” trust graph, with multiple characteristics and create actionable output. The paper is not focused on the automation of the process. It can be applied by human processing of information or through a programmed software implementations. It may also apply to business entities and organizations, not just persons.
 
@@ -57,29 +51,29 @@ For example:
 *   Derivative reputation assessment. For example, in moving from one sport to another, some skills might be transferable and some not.
 *   Complex adjustment to the terms of engagement. For example, if you are offering a job to someone, the output might be a change in their job description. 
 
-<h3>**Overview**</h3>
 
+## **Overview**
 
 The fundamental assumption of this paper is that data collection is not the problem in creating a “reputation” for individuals, entities or groups but that the issue comes when interpreting the data. Reputation inputs are constantly collected and understood differently in different contexts. We do not address the question of “what is reputation?” nor do we address “how to create interoperable reputation standards”. Instead, the focus is on how to interpret reputation data. 
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Reputation-Interpretation0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Reputation-Interpretation0.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Reputation-Interpretation0.png "image_tooltip")
+![alt_text](images/Reputation-Interpretation0.jpg "image_tooltip")
 
 
-In the above (placeholder) diagram, we visualize the process we discuss in this paper. Reputation Interpretation, the box in the center, is the focus of this paper. While this paper touches on Inputs and Outputs from the interpretation process, the focus of the paper is on the process an organization would undertake to Interpret the data in a way that makes sense to that organization. In that sense, the context is decisive.
+In the above diagram, we visualize the process we discuss in this paper. Reputation Interpretation, the box in the center, is the focus of this paper. While this paper touches on Inputs and Outputs from the interpretation process, the focus of the paper is on the process an organization would undertake to Interpret the data in a way that makes sense to that organization. In that sense, the context is decisive.
 
 Following is the process the authors identified as the Reputation Interpretation Process. The following description also serves as a mini-glossary to the terminology used in this document. Some of the terminology may be a placeholder as these concepts have not been well-defined previous to the paper. Once running, we imagine the process itself happening in the following chronological sequence. 
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Reputation-Interpretation1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Reputation-Interpretation1.jpg). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/Reputation-Interpretation1.png "image_tooltip")
+![alt_text](images/Reputation-Interpretation1.jpg "image_tooltip")
 
 
 
@@ -109,13 +103,13 @@ Designing the system would be in the following order (as is the paper):
 
 The remainder of the paper goes into more detail on each one of these steps.
 
-<h3>**Diagram of the process**</h3>
 
+## **Diagram of the process**
 
 (diagram with explanations of the process with that cute matrix thing)
 
-<h3>**Define the Output**</h3>
 
+## **Define the Output**
 
 Many discussions of reputation focus on numerical measures of reputation. Generally speaking, in the digital world, reputation is expressed as a kind of number, such as 5-star ratings, reputation points, credit rating, rankings, or accumulated reputation in the form of tokens. Within the digital identity community, another common form of reputation is in the form of credentials or claims. Alice may make a claim that she worked for a particular employer or holds a degree, and a yes/no verification of that claim by the institution in question indicates it is valid.
 
@@ -148,14 +142,14 @@ The different types of output are appropriate for different contexts and intent.
 *   **Intent:** What is done with the output, how long it is retained, whether this is a one-time decision or part of a larger decision.
 *   **Relevant actions:** The actions that will be taken based on the output.
 *   **Decision criteria: **The important factors for making decisions. This varies on the context and judgment of the community or individual making a decision. For example, Bob may consider professional assessment as extremely important.
-*   **Output requirements:** The format in which the output will be presented. For example, Bob may get one report for his decision-making regarding the terms of engagement for Alice’s work contract. A patient at Bob’s clinic may receive a different presentation of the output. Some of the information about Alice may never be exposed to Bob. For example, Alice’s gender, age and race would not be exposed, although that information is in the system, in order to avoid biases.
+*   **Output requirements:** The format in which the output will be presented. For example, Bob may get one report for his decision-making regarding the terms of engagement for Alice’s work contract. A patient at Bob’s clinic may receive a different presentation of the output. Some of the information about Alice may never be exposed to Bob. For example, Alice’s gender, age and race would not be exposed, although that information is in the system, in order to avoid biases
 *   **Individualization of outputs:** In some contexts, Bob may want to provide individualization of outputs. For example, IQ tests are biased towards certain racial and educational backgrounds. Bob may want to create individualized reports taking into account such biases, or individualized reports based on different educational backgrounds. For someone with a strong academic background, ongoing certifications might be less important than someone who didn’t do as much initial study.  
 
     **Illustration case: Bob’s output will be a contract for employing Alice, as well as matching recommended clients, and a short overview that is shown on the clinic’s website and that patients review to help them choose their practitioner. **
 
 
-<h3>**Identify Inputs**</h3>
 
+## **Identify Inputs**
 
 Once the output is well-defined, it is possible to determine the inputs that can be used to reach that output. Starting with the end in mind immediately simplifies the seemingly impossible tasks of wading through the tremendous amount of information available.
 
@@ -171,8 +165,8 @@ Following are the considerations for Bob when identifying and determining inputs
 
 Following these considerations, Bob would end up with a list of the data and data sources that Bob will request from Alice. 
 
-<h3>**Margin of Error**</h3>
 
+## **Margin of Error**
 
 Bob now makes a request from Alice for the data, and Alice provides all or a subset of the data. Looking at the subset of data, Bob may assess the “Margin of Error”. Bob may or may not know whether Alice simply doesn’t have that data (for example, she never had a Myers-Brigg assessment performed), or whether she intentionally withheld data (for example, omitting an employer from her resume or LinkedIn profile). Based on the completeness or incompleteness of the data, Bob determines the “reliability” or “margin of error” for the final score. 
 
@@ -180,8 +174,8 @@ Some data may be more critical than others in determining “margin of error.”
 
 The authors of the paper were divided as to whether the Margin of Error would be calculated as an “overall” score on the report, or whether it would be applied individually to each item of data. The sequence of the calculation is an implementation issue. This paper points out the issue of completeness of data as one to take into consideration, and it is up to the Bobs of the world to determine where they want to implement it. 
 
-<h3>**Normalization**</h3>
 
+## **Normalization**
 
 Once data is collected, the data needs to be normalized in ways that it is understandable and can be processed. Following are considerations for normalization of data.
 
@@ -199,8 +193,8 @@ Part of the normalization process is attributing the different characteristics t
 
 (Diagram of puzzle pieces)_
 
-<h3>**Concerns**</h3>
 
+## **Concerns**
 
  Once data from different sources has been normalized, presumably what Bob now has is some format that allows similar types of data to be processed together in groups. For example, peer reviews would be normalized as positive, neutral, or negative. Text that will be scanned for keywords indicating specialties will be normalized into categories separating client reviews from peer reviews from employer recommendations.
 
@@ -211,13 +205,17 @@ Two types of concerns were identified:
 *   **Importance:** Bob will use weighting mechanisms to determine the importance of the elements in determining output. For example, patient reviews may be an important part of what potential clients see, taking up 50% of that report, but in providing the contract of employment, Bob may give them no weight, and just have a threshold, for example, hire Alice if she has more than 80% positive reviews.
 *   **Credence:** Each data source (or aggregated data element) has a level of credence for that particular value. The credence is an assessment of how likely it is that the data is believable. The believability of the data can be influenced by anything from the issuer through the hackability of the connection when the data was provided. Each element can be weighted according to its credence.
 
-<h3>**Processing**</h3>
 
+## **Processing**
 
 Bob’s on his own here. Maybe he’ll attend RWoT10 and add this part.
 
-<h3>**Conclusions **</h3>
 
+## **Conclusions **
+
+The discussion of how to measure reputation, what reputation is and how to track it becomes and endless rabbithole, because of the huge range of aspects of reputation and measurements that could be discussed. By taking a practical approach, that is, discussing reputation in a specific context, we are able to understand that reputation isn’t a thing unto itself, but a tool that people and organizations use in order to make decisions. By beginning with the end in mind, we are able to make sense of reputation, both from the perspective of understanding what data to gather about a person, and how to process it.
+
+This paper provides a framework for how to think about reputation from the perspective of the actions and decisions that are made based on the reputation. For each context, different measures are brought in, normalized and assessed in order to make the relevant decision. 
 
 
 <!-- Docs to Markdown version 1.0β17 -->
